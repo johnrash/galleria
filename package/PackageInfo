@@ -1,0 +1,18 @@
+name			galleria
+version			1.0.0-3
+architecture	x86_64
+summary			"A simple image browser and viewer"
+description		"Galleria is a no-frills image browser and viewer. It shows a folder as a grid of thumbnails (adjustable size, sorted by name, modification date, creation date, size or type) and opens images in a viewer window with mouse wheel scrolling and a zoom that sticks for all images. It reads every format the installed translators support. Thumbnails are cached in ~/config/cache/Galleria."
+packager		"Galleria authors"
+vendor			"Galleria authors"
+copyrights		"2026 Galleria authors"
+licenses		"MIT"
+
+provides {
+	galleria = 1.0.0
+	app:Galleria = 1.0.0
+}
+
+requires {
+	haiku >= r1~beta6
+}

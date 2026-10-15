@@ -1,0 +1,6 @@
+# makefile-engine build output
+objects.*/
+
+# package staging and built packages (attach .hpkg files to a release)
+package/pkg/
+*.hpkg
